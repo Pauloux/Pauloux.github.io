@@ -31,7 +31,7 @@ function getCouleur(resFond) {
 
 function declencherBoutonTirerDe () {
     //Affiche le résultat
-    document.getElementById("resLancer").innerHTML = "Résultat : " + tirerIntDansIntervalle(1, 16);
+    document.getElementById("resLancer").innerHTML = tirerIntDansIntervalle(1, 16);
 
     //Change le fond
     let resFond = tirerCouleurDifferente(resPrec);
